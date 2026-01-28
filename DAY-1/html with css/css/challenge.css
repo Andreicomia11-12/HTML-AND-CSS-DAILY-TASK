@@ -9,14 +9,16 @@ p{
 
 button{
   border-radius: 20px;
-  padding: 5px 15px;
+  padding: 7px 20px;
   border: none;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .button1{
-  background-color: ;
+  background-color: rgb(224, 198, 4);
 }
 
 .button2{
-  background-color: ;
+  background-color: orange;
 }

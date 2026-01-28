@@ -1,0 +1,61 @@
+a{
+  margin: 3px;
+}
+
+button{
+  padding: 5px;
+  margin: 5px;
+}
+
+
+.stretch{
+  background-color: rgb(16, 125, 7);
+  padding: 8px 15px;
+  border: none;
+  color: white;
+  transition: padding 1s;
+}
+
+.stretch:hover{
+  cursor: pointer;
+  padding: 12px 18px;
+}
+
+
+.shadow{
+  background-color: rgb(16, 125, 7);
+  padding: 8px 12px;
+  border: none;
+  color: white;
+  transition: box-shadow 0.3s;
+}
+
+.shadow:hover{
+  cursor: pointer;
+}
+
+.shadow:active{
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.one{
+  background-color: rgb(16, 125, 7);
+  padding: 8px 12px;
+  border: none;
+  color: white;
+    margin: 5px;
+}
+.two{
+  background-color: rgb(16, 125, 7);
+  padding: 8px 12px;
+  border: none;
+  color: white;
+    margin: 5px;
+}
+.three{
+  background-color: rgb(16, 125, 7);
+  padding: 8px 12px;
+  border: none;
+  color: white;
+    margin: 5px;
+}
