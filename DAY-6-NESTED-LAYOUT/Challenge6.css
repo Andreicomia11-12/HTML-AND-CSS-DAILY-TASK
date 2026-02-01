@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.parentContainer{
+  padding: 18px;
+}
+
+.cardContainer{
+  width: 180px;
+  height: 180px;
+}
+
+.imageDiv{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.belugaImage{
+  width: 100%;
+    object-fit: cover;
+}
+
+.infoDiv{
+  width: 100%;
+  padding: 10px 0px 5px 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.catName{
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.mutualFriend{
+  width: 100%;
+  display: flex;
+  height: 10%;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+
+.mutualImage{
+  width: 20%;
+  display: flex;
+}
+.mutualValue{
+  font-size: 14px;
+  color: grey;
+}
+.image1{
+  border-radius: 50%;
+  width: 25px;
+}
+
+.addFriend{
+  width: 100%;
+}
+
+.addButton{
+  padding: 8px 15px;
+  border: none;
+  color: white;
+  background-color: rgb(12, 113, 228);
+  font-weight: 500;
+  border-radius: 5px;
+}
