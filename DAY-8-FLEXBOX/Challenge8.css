@@ -1,0 +1,59 @@
+.task1{
+  display: flex;
+  flex-direction: row;
+}
+
+.div1{
+  background-color: rgb(223, 223, 23);
+  width: 200px;
+}
+.div2{
+  background-color: rgb(33, 192, 192);
+  width: 75px;
+}
+
+.task2{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.div3{
+  background-color: rgb(48, 216, 42);
+  width: 50px;
+}
+.div4{
+  background-color: rgb(227, 13, 124);
+  flex: 1;
+}
+
+.div5{
+  background-color: rgb(33, 192, 192);
+  width: 75px;
+}
+
+.task3{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.one{
+  background-color: red;
+  width: 50px;
+}
+
+.task4{
+    margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  border: grey solid 1px;
+  align-items: center;
+}
+
+.divTEST{
+  background-color: lightpink;
+}
