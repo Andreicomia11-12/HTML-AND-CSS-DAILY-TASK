@@ -1,0 +1,207 @@
+body{
+  height: 1000px;
+}
+
+.posFix{
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.sidebar{
+  background-color: green;
+  width: 200px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  color: white;
+}
+
+.overlay{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal{
+  width: 300px;
+  height: 150px;
+  padding-left: 30px;
+  background-color: white;
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+
+.sent{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+closeButton{
+  width: 50px;
+  margin-top: 2px;
+}
+
+.header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+  font-family: Arial;
+}
+
+
+.profileDiv{
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userName{
+  font-weight: bold;
+}
+
+.noneDiv{
+    flex: 3;
+    min-width: 250px;
+}
+.buttonDiv{
+  width: 350px;
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.addButton{
+  height: 35px;
+  width: 100px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: rgb(20, 123, 220);
+    border-radius: 7px;
+}
+
+.messButton{
+    height: 35px;
+  width: 100px;
+    font-weight: bold;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(221, 221, 221);
+    border-radius: 7px;
+}
+
+
+
+.belugaa{
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+.sidebarCont{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 60px;
+  width: 70px;
+  border-right: 1px solid gray;
+  background-color: rgb(36, 36, 36);
+    display: flex;
+    flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.sidebarProfile{
+  width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile1, .profile2, .profile3{
+  width: 50px;
+  height: 50px;
+      border-radius: 50%;
+  margin-top: 20px;
+}
+
+
+.profile2{
+  background-color: white;
+  display: flex;
+}
+
+.sidebarExtend{
+  background-color: rgb(95, 94, 94);
+  position: fixed;
+  left: 70px;
+  bottom: 0;
+  top: 60px;
+  width: 200px;
+  padding: 25px 20px 20px 20px;
+  font-family: Arial;
+}
+
+.header1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.discHeader{
+  color: white;
+
+}
+
+.channel1, .channel2, .channel3{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-bottom: 10px;
+  color: #a6a8ab;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
